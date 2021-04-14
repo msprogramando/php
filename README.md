@@ -1,12 +1,12 @@
 # New PHP Features
 
-## 8.0
+## Version 8.0
 
 **sources**
 [php.net](https://www.php.net/releases/8.0/en.php)
 [sticher.io](https://stitcher.io/blog/new-in-php-8)
 
-### [x] Union Types
+### Union Types
 ```php
 public function foo(Foo|Bar $input): int|float;
 public function foo(Foo|null $foo): void;
